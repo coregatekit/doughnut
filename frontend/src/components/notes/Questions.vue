@@ -40,7 +40,7 @@
           <td>{{ question.quizQuestion.multipleChoicesQuestion.stem }}</td>
           <td>
             <button
-              :id="'delete-' + outerIndex"
+              :id="'delete-btn-' + outerIndex"
               @click="deleteQuestion(question.id)"
             >
               Delete
